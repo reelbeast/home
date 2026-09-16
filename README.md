@@ -43,7 +43,7 @@ All in the `CONFIG` block at the top of `build.py`:
 
 ```python
 SITE    = "Reelbeast"                       # brand name
-DOMAIN  = "https://yard.example-domain.com" # <-- REQUIRED: your real domain, no trailing slash
+DOMAIN  = "https://site.example-domain.com" # <-- REQUIRED: your real domain, no trailing slash
 AFF     = "https://vnstrf.com/d3f4MrnT"     # affiliate target for every CTA
 ```
 
