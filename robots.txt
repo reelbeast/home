@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yard.example-domain.com/sitemap.xml

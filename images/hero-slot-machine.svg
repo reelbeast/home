@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400" role="img" aria-label="Illustration of a Reelbeast slot machine with three glowing reels">
+  <defs>
+    <linearGradient id="cab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1B52"/><stop offset="1" stop-color="#140B2C"/>
+    </linearGradient>
+    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38E07B"/><stop offset="1" stop-color="#FF3DA6"/>
+    </linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <ellipse cx="260" cy="350" rx="170" ry="34" fill="#38E07B" opacity=".2" filter="url(#b)"/>
+  <rect x="96" y="54" width="328" height="278" rx="30" fill="url(#cab)" stroke="url(#gl)" stroke-width="3"/>
+  <rect x="128" y="92" width="264" height="24" rx="12" fill="#38E07B" opacity=".25"/>
+  <g>
+    <rect x="128" y="134" width="76" height="116" rx="12" fill="#070911"/>
+    <rect x="222" y="134" width="76" height="116" rx="12" fill="#070911"/>
+    <rect x="316" y="134" width="76" height="116" rx="12" fill="#070911"/>
+    <text x="166" y="208" font-size="46" text-anchor="middle" fill="#FFC93C">7</text>
+    <text x="260" y="208" font-size="46" text-anchor="middle" fill="#FFC93C">7</text>
+    <text x="354" y="208" font-size="46" text-anchor="middle" fill="#FFC93C">7</text>
+  </g>
+  <rect x="128" y="270" width="264" height="40" rx="20" fill="url(#gl)"/>
+  <text x="260" y="296" font-size="17" font-weight="700" text-anchor="middle" fill="#04210F">SPIN</text>
+  <circle cx="446" cy="150" r="17" fill="#FFC93C"/>
+  <rect x="438" y="150" width="16" height="96" rx="8" fill="#8C6A18"/>
+</svg>
